@@ -1,0 +1,63 @@
+.modelcontainer{
+    margin: 50px;
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    background-color: #eee;
+    top: 20px;
+    padding: 20px;
+    justify-self: center;
+    align-self: center;
+}
+.inputdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    font-size: 20px;
+}
+.inputdiv input{
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.inputdiv button{
+    min-width: 100px;
+    font-weight: bold;
+    background-color: #eee;
+}
+
+.alltask{
+    margin-top: 50px;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.task div{
+    min-width: 400px;
+}
+
+.task button{
+    min-width: 100px;
+    font-weight: bold;
+    background-color: #eee;
+}
+
+.close{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.close button {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
